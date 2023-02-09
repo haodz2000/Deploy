@@ -1,0 +1,9 @@
+# version: '3.8'
+# services:
+#   redis:
+#     container_name: redis_test
+#     image: redis:alpine
+#     command: 'redis-server --requirepass ${REDIS_PASSWORD} --appendonly yes'
+#     restart: always
+#     ports:
+#       - 6379:6379
